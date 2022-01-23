@@ -1,0 +1,40 @@
+run test/block2.fun
+clean
+exit
+compile
+test
+run test/simple.hal
+run test/block.hal
+run test/function.hal
+run test/nesting.hal
+compile
+run test/nesting.hal
+test
+compile
+test
+compile
+run test/simple.hal
+run test/test.hal
+run test/testdiv.hal
+run test/testlist.hal
+compile
+run test/simple.hal
+run test/function.hal
+run test/block.hal
+run test/head.hal
+run test/testhead.hal
+run test/fac.hal
+run test/testlen.hal
+run test/facm.hal
+compile
+run test/testpat.hal
+run test/testpat2.hal
+test
+clean
+exit
+test
+compile
+test
+compile
+test
+echo "# NoSynInterpreter" >> README.md
